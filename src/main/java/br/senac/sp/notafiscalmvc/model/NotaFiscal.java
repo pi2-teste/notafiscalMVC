@@ -10,5 +10,28 @@ package br.senac.sp.notafiscalmvc.model;
  * @author lucas
  */
 public class NotaFiscal {
+    double valNota;
+    int numNota;
+    
+    public NotaFiscal() {
+        System.out.println("inicializando um objeto do tipo NotaFiscal");
+    }
+    
+    public double getValNota() {
+        return valNota;
+    }
+
+    public void setValNota(double valNota) {
+        this.valNota = valNota;
+    }
+
+    public int getNumNota() {
+        return numNota;
+    }
+
+    public void setNumNota(int numNota) {
+        this.numNota = numNota;
+    }
+    
     
 }

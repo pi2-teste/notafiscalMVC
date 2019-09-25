@@ -1,0 +1,15 @@
+TODO: intro
+TODO adicionar imagens
+
+primeiro, construa NotaFiscalForm Para ficar similar às imagens
+* para fazer as abas, adicione uma TabbedPane (ache em swing containers), com dois Jpanel dentro (jPanel tambem está em containers)
+* na primeira aba, adicione os campos (jtextfield) com os textos apropriados (jlabel) e o botao (jbutton) (todas essas classes podem ser achadas em Swing Controls)
+* renomeie as variaveis! nao é legal um código com nomes de variaveis como jTextField1. Melhor "campoNumNota".
+* na segunda aba, adicione uma jtable (tb em Swing Controls)
+
+faça o botao fazer o seguinte: quando eu clicar no botao, é impresso no terminal de debug "nro nota"
+
+faça o seguinte: quando eu clicar no botao, é impresso no terminal de debug "nro nota" seguido no numero fornecido, e tambem "valor nota" seguido do valor fornecido
+
+
+
