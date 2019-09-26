@@ -22,6 +22,8 @@ public class NotaFiscal {
     }
 
     public void setValNota(double valNota) {
+        System.out.print("O objeto nota recebeu um valor:");
+        System.out.println(valNota);
         this.valNota = valNota;
     }
 
@@ -30,6 +32,8 @@ public class NotaFiscal {
     }
 
     public void setNumNota(int numNota) {
+        System.out.print("O objeto nota recebeu um numero de nota:");
+        System.out.println(numNota);
         this.numNota = numNota;
     }
     
